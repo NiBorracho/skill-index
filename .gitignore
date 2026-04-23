@@ -1,0 +1,17 @@
+# Generated index files (rebuilt locally on each machine)
+skill-index/INDEX.md
+skill-index/audit.log
+skill-index/.plugins_hash
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local machine-specific
+.claude/
