@@ -26,19 +26,29 @@ After:  Read INDEX.md → find matches → invoke all relevant (15 sec)
 
 ## Installation
 
-### Step 1 — Copy the skill to your skills directory
+### Step 1 — Install the skill
+
+**Recommended (via `skills` CLI):**
+
+```bash
+# GitHub shorthand
+npx skills add NiBorracho/skill-index
+
+# Full URL
+npx skills add https://github.com/NiBorracho/skill-index
+
+# Any git URL
+npx skills add git@github.com:NiBorracho/skill-index.git
+```
+
+**Manual install (git clone):**
 
 ```bash
 # Linux / Mac / WSL
-cp -r skill-index ~/.claude/skills/skill-index
+git clone https://github.com/NiBorracho/skill-index.git ~/.claude/skills/skill-index
 
 # Windows PowerShell
-Copy-Item -Recurse skill-index "$env:USERPROFILE\.claude\skills\skill-index"
-```
-
-Or install from skills.sh:
-```bash
-skills install skill-index
+git clone https://github.com/NiBorracho/skill-index.git "$env:USERPROFILE\.claude\skills\skill-index"
 ```
 
 ### Step 2 — Run the one-time setup

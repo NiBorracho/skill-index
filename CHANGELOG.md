@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - `remove` command now requires interactive confirmation (`[y/N]`) before deleting a skill from the index — accidental deletions prevented
 
+### Documentation
+- Installation section now documents `npx skills add NiBorracho/skill-index` (skills CLI) as the recommended install method, with `git clone` as the manual alternative
+
 ## [1.0.0] — 2026-04-23
 
 ### Added
